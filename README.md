@@ -23,7 +23,7 @@
 **MAIN (_main)**
  - Z Offset
  - Level Bed Screws
- - 
+
 **PRINTING (_sdcard)**
  - Pause
  - Resume
