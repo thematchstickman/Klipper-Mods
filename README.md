@@ -6,10 +6,10 @@
 |PROBE_DOCK|Return to docked position & reset 'leaveprobe' to 0.|
 |PROBE_CALIBRATE|As named.|
 |PROBE_ACCURACY|As named.|
-|START_PRINT|Preheats with BED_TEMP and EXTRUDER_TEMP as set in G-Code file from slicer.  Asks if mesh is desired.|
+|START_PRINT|Preheats with BED_TEMP and EXTRUDER_TEMP as set in G-Code file from slicer.  Asks if mesh is desired (QUESTION_MESH).|
 |END_PRINT|Cooldown sequence followed by conditional printer power off (END_POWER_SETTING)|
 |PURGE_LINES|2 parallel lines from Y-max to 0 along the left side of the bed.|
-|QUESTION_MESH|Promts: 'Yes' for adaptive mesh, 'no' for no action.|
+|QUESTION_MESH|Prompt: 'Yes' for adaptive mesh, 'no' for no action.|
 |BED_MESH_CALIBRATE_ADAPT|Sets leaveprobe=1 for G28, if needed.  Includes adaptive=1.|
 |BED_MESH_CALIBRATE_FULL|Sets leaveprobe=1 for G28, if needed.|
 |G29|Calls BED_MESH_CALIBRATE_FULL|
