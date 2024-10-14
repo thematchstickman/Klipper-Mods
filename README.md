@@ -9,7 +9,6 @@
 |START_PRINT|Ask if power remains on after print. Preheats with BED_TEMP and EXTRUDER_TEMP as set in G-Code file from slicer. Command adaptive mesh.|
 |END_PRINT|Cooldown sequence followed by conditional printer power off (END_POWER_SETTING)|
 |PURGE_LINES|2 parallel lines from Y-max to 0 along the left side of the bed.|
-|QUESTION_MESH|Prompt: 'Yes' for adaptive mesh, 'no' for no action.|
 |BED_MESH_CALIBRATE|G28 and conditional adaptive mesh (if meshadapt=1).|
 |G29|Calls BED_MESH_CALIBRATE|
 |SCREWS_TILT_CALCULATE_ADAPT|Sets leaveprobe=1 for G28, if needed.|
