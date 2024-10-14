@@ -16,8 +16,12 @@
 |SCREWS_TILT_CALCULATE_ADAPT|Sets leaveprobe=1 for G28, if needed.|
 |POWER_ON_PRINTER|As named.|
 |POWER_OFF_PRINTER|As named.|
-|END_POWER_SETTING|Select whether the printer powers down when finished.  Defaults to powering down.|
-| SAVE_CONFIG |As named.|
+|POWER_OFF_PRINTER_CHECK|Soft power down that checks for printer cooldown (hotend<50) and user setting for end print power.|
+|_END_POWER_ON|Set end print power state to remain on.|
+|_END_POWER_OFF|Set end print power state to power down.|
+|ENDPRINTPOWER_PROMPT|Macro prompt to select whether the printer powers down when finished.|
+|SOFT_SHUTDOWN|Button to invoke shutdown when hotend<50|
+|SAVE_CONFIG |As named.|
 |_VARIABLES|Macro to hold G-Code variables.|
 |GET_VARIABLES|Search function to look up variables from the command line.|
 
